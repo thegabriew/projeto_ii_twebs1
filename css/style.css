@@ -1,0 +1,105 @@
+body{
+    width: 100%;
+}
+.tela1{
+    display: grid;
+    background-image: url(../imgs/header.jpg);
+    background-size: 100%;
+    height: 100vh;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 80%; 
+    grid-template-areas: 
+    "menu"
+    "texto"
+    ;
+
+}
+
+
+
+.lema{
+    grid-area: lema;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 5%;
+    margin-top: 10%
+}
+
+.logo{
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 60px;
+}
+
+.menu{
+
+display: grid;
+grid-area: menu;
+grid-template-columns: auto auto;
+ width: 100%;
+ z-index: 1;
+ background-color: white;
+ width: 100%;
+ position: fixed;
+ height: 60px;
+ grid-template-areas: 
+ "logo menu";
+
+
+}
+
+.menu ul{
+    list-style: none;
+    text-align: right;
+    padding: 2rem;
+   
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 3rem;
+    font-size: 1.25rem;
+}
+
+.menu ul li a:hover{
+    color:#F08080;
+}
+
+.opcoes{
+    grid-area: op;
+}
+
+.txt1{
+
+    grid-area: texto;
+    display: inline-block;
+    width: 100%;
+}
+
+.txt1 h1{
+    color:white ;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.txt1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    background-color: #DC143C;
+    border-radius: 30px;
+    padding: 15px;
+    margin-left:47%;
+
+}
