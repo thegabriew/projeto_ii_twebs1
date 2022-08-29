@@ -15,17 +15,6 @@ body{
 
 }
 
-
-
-.lema{
-    grid-area: lema;
-    text-align: center;
-    color: white;
-    font-size: 50px;
-    margin-bottom: 5%;
-    margin-top: 10%
-}
-
 .logo{
 
     width: 50px;
