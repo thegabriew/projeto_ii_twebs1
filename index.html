@@ -9,32 +9,33 @@
 </head>
 
 <body>
-    <section class="tela1">
+  <header class="sec1">
+      <div class="logo">
 
-      <div class="menu aux">
+        <img src="imgs/brand.svg"> 
+      </div>
 
-        <img class="logo logoaux" src="imgs/brand.svg"> 
-
-        <nav>
-            <ul class="topicos"> 
+        <nav class="menu">
+            <ul> 
             <li> <a href="#home">Home</a> </li>
             <li> <a href="#about">About</a> </li>
             <li> <a href="#expert">Expert</a> </li>
             <li> <a href="#contact">Contact</a> </li>
         </ul>
         </nav>
+</header>
 
-    </div>
-    
-  <div class="txt1"> 
-        <h1 id="t1"> We Make Responsive Design</h1>
- 
-        <p><a href="#">Learn More</a></p>
-    </div>
+<section class="sec2"> 
+  <h1 id="home"> We Make Responsive Design</h1>
+
+  <p><a href="#">Learn More</a></p>
 </section>
 
 
-<section class="tela2">
+
+
+
+<section class="tela2" id="about">
 
 
        <div class="txttela2 txttela22">
@@ -50,13 +51,13 @@
 
 </section>
 
-<section class="tela3">
+<section class="tela3" id="expert">
  
     <h1>Expertises</h1>
 
 <div class="objetos">
 
-    <div class="tela3o1 ob1">
+    <div class="tela">
       <img src="imgs/img-4.jpg">
  
       <h2> Development</h2>  
@@ -65,7 +66,7 @@
     </div>
 
     
-    <div class="tela3o2 ob2">
+    <div class="tela ">
         <img src="imgs/img-5.jpg">
    
         <h2> Coding & Designing</h2>  
@@ -73,7 +74,7 @@
   
       </div>
 
-      <div class="tela3o3 ob3">
+      <div class="tela">
         <img src="imgs/img-6.jpg">
    
         <h2> Graphic Design</h2>  
@@ -81,7 +82,7 @@
   
       </div>
 
-      <div class="tela4o4 ob4">
+      <div class="tela ">
         <img src="imgs/img-7.jpg">
    
         <h2> UX Design</h2>  
@@ -92,19 +93,20 @@
     </div>
 </section>
 
-<section class="tela4">
+<section class="tela4" id="contact">
 
-  <div class="msg">
-
-    <h1> Contact Us </h1>
-
-    <textarea rows="2" cols="30" minlength="20" maxlength="50" disabled>name</textarea><br>
-    <textarea rows="2" cols="30" minlength="20" maxlength="50" disabled>E-mail</textarea><br>
-    <textarea rows="2" cols="30" minlength="20" maxlength="50" disabled class="ym">Your mensage</textarea>
-    <br>
-    <a>Send a mensage</a>
-
+  <div class="info">
+    <div class="msg">
+        <h1> Contact Us </h1>
+    </div>
+    <form> 
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email"> 
+        <textarea rows="15" cols="30" >Your mensage</textarea>
+        <input class="botaosm" type= submit value="send mensage"> 
+    </form>
   </div>
+   
 
   <div class="texto4">
 
@@ -114,12 +116,12 @@
       E-mail: info@website.com<br>
       Phone: (123)456-7890</p>
 
-     
-
   </div>
 
 
 </section>
+
+<footer class="footer"> Desenvolvido por Gabriel Ferreira</footer>
 
 </body>
 </html>
