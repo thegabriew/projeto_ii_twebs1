@@ -5,11 +5,11 @@ body{
     display: grid;
     background-image: url(../imgs/header.jpg);
     background-size: 100%;
-    height: 100vh;
+    height: 110vh;
     grid-template-columns: auto;
     grid-template-rows: 20% 80%; 
     grid-template-areas: 
-    "menu"
+    "menuinicial" 
     "texto"
     ;
 
@@ -21,23 +21,36 @@ body{
     height: 50px;
     position: relative;
     left: 60px;
+    display: inline-block;
+}
+
+.logoaux{
+    grid-area: logo;
+}
+
+.topicos{
+
+    grid-area: topico;
 }
 
 .menu{
 
-display: grid;
-grid-area: menu;
-grid-template-columns: auto auto;
+
+grid-template-columns: auto;
  width: 100%;
  z-index: 1;
  background-color: white;
- width: 100%;
  position: fixed;
- height: 60px;
+ height: 65px;
  grid-template-areas: 
- "logo menu";
+ "logo topico";
 
 
+}
+
+.aux{
+
+    grid-area: menuinicial;
 }
 
 .menu ul{
@@ -48,11 +61,10 @@ grid-template-columns: auto auto;
 }
 
 .menu ul li{
-    display: inline;
+    display: inline-block;
 }
 
 .menu ul li a{
-    display: inline-block;
     color: black;
     text-decoration: none;
     padding: 3rem;
@@ -63,9 +75,7 @@ grid-template-columns: auto auto;
     color:#F08080;
 }
 
-.opcoes{
-    grid-area: op;
-}
+
 
 .txt1{
 
@@ -91,4 +101,225 @@ grid-template-columns: auto auto;
     padding: 15px;
     margin-left:47%;
 
+}
+
+.tela2{
+
+    background-color: #E6E6FA;
+    height:60vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "txt2 img";
+}
+
+.tela2 h1{
+    padding: 1rem;
+    background-color: #F08080;
+    color: white;
+    width: 80%;
+}
+
+.tela2 p{
+    padding: 1rem;
+    text-align: justify;
+    width: 80%;
+}
+
+.tela2 b{
+    padding: 1rem;
+}
+
+.txttela2{
+    grid-area: txt2;
+}
+
+.txttela22{
+    font-size: 25px;
+}
+
+.imgtela2 img{
+    grid-area: img;
+}
+
+.imgtt2 img{
+    width: 70%;
+    border-radius: 13%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.tela3{
+
+    display: grid;
+    
+   
+}
+
+.objetos{
+
+    display: grid;
+    gap: 5rem;
+    width: 100%;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-areas: 
+    "o1 o2 o3 o4"; 
+    margin-left: 90px;
+    
+}
+
+.tela3 h1{
+
+    padding: 1rem;
+    background-color: #F08080;
+    color: white;
+    width: 50%;
+    font-size: 40px;
+}
+
+.tela3o1{
+    grid-area: o1;
+}
+
+
+.ob1{
+    width: 100%;
+}
+
+
+
+.ob1 h2{
+
+    font-size: 40px;
+    
+}
+
+.ob1 p{
+
+    font-size: 20px;
+  
+}
+
+.ob1 img{
+
+    width: 80%;
+}
+
+.ob2{
+    width: 100%;
+}
+
+.tela3o2{
+    grid-area: o2;
+}
+
+.ob2 h2{
+
+    font-size: 40px;
+    
+}
+
+.ob2 p{
+
+    font-size: 20px;
+  
+}
+
+.ob2 img{
+
+    width: 80%;
+}
+
+.ob3{
+    width: 100%;
+}
+
+.tela3o3{
+    grid-area: o3;
+}
+
+.ob3 h2{
+
+    font-size: 40px;
+    
+}
+
+.ob3 p{
+
+    font-size: 20px;
+  
+}
+
+.ob3 img{
+
+    width: 80%;
+}
+
+.tela4o4{
+    grid-area: o4;
+}
+
+.ob4 h2{
+
+    font-size: 40px;
+    
+}
+
+.ob4 p{
+
+    font-size: 20px;
+  
+}
+
+.ob4 img{
+
+    width: 80%;
+}
+
+textarea{
+
+    resize: none;
+    min-width: 40%;
+    max-width: 80%;
+    
+}
+
+.tela4{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "msg texto4";
+    background-color: #E6E6FA;
+}
+
+.ym{
+    height: 60px;
+}
+
+.texto4{
+
+    grid-area: texto4;
+
+}
+
+.msg{
+
+grid-area: msg;
+
+}
+
+.tela4 h1{
+
+    background-color: #F08080;
+    font-size: 40px;
+}
+
+.tela4 a{
+
+    background-color: #F08080;
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+    width: 100px;
 }
