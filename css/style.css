@@ -2,6 +2,8 @@ body{
     width: 100%;
 }
 
+/* TELA 1 */
+
 .sec1{
 
     display: grid;
@@ -17,6 +19,8 @@ body{
     left: 60px;
 
 }
+
+/* TELA 2 */
 
 .sec2{
     display: grid;
@@ -143,6 +147,9 @@ body{
     margin-top: 10%;
 }
 
+/* TELA 3 */
+
+
 .tela3{
 
     display: grid;
@@ -153,13 +160,23 @@ body{
 .objetos{
 
     display: grid;
-   
     width: 100%;
     grid-template-columns: auto auto auto auto;
     gap:10px;
   
     justify-items: start;
     
+}
+
+.tela{
+
+    padding-left: 10px;
+}
+
+.tela img{
+
+    width: 80%;
+    height: 60%;
 }
 
 .tela3 h1{
@@ -171,111 +188,11 @@ body{
     font-size: 40px;
 }
 
-.tela3o1{
-    grid-area: o1;
-}
-
-.tela3o1 img{
-    width: 50%;
-
-}
-
-
-.ob1{
-    width: 100%;
-}
-
-
-
-.ob1 h2{
-
-    font-size: 40px;
-    
-}
-
-.ob1 p{
-
-    font-size: 20px;
-  
-}
-
-
-
-
-.tela3o2{
-    grid-area: o2;
-}
-
-.tela3o2 img{
-
-    width: 60%;
-}
-
-.ob2 h2{
-
-    font-size: 40px;
-    
-}
-
-.ob2 p{
-
-    font-size: 20px;
-  
-}
-
-.ob2 img{
-
-    width: 60%;
-}
-
-.tela3o3 img{
-    width: 60%;
-}
-
-.tela3o3{
-    grid-area: o3;
-}
-
-.ob3 h2{
-
-    font-size: 40px;
-    
-}
-
-.ob3 p{
-
-    font-size: 20px;
-  
-}
-
-
-.tela4o4{
-    grid-area: o4;
-}
-
-.tela4o4 img{
-
-    width: 60%;
-}
-
-.ob4 h2{
-
-    font-size: 40px;
-    
-}
-
-.ob4 p{
-
-    font-size: 20px;
-  
-}
 
 
 textarea{
 
     resize: none;
-  
-    
     
 }
 
@@ -284,7 +201,7 @@ textarea{
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #E6E6FA;
-    height: 60vh;
+    height: 70vh;
     align-items: start;
 }
 
@@ -308,21 +225,22 @@ textarea{
     font-size: 40px;
 }
 
-
-
 .info{
 
-    margin-top: 10%;
+    margin-bottom: 100%;
+}
+
+.info h1{
+
+    padding-top: 15px;
 }
 
 .botaosm{
     padding-top: 30px;
     height: 15px;
+    background-color: #F08080;
+    
 
-}
-
-.botaosm a{
-    height: 5px;
 }
 
 .msg textarea{
@@ -330,7 +248,6 @@ textarea{
     margin-left: 10%;
     margin-bottom: 1%;
 }
-
 
 .texto4 b{
 
@@ -342,7 +259,7 @@ textarea{
 
 margin-left: 150px;
 font-size: 22px;
-margin-top: 15%;
+margin-top: 25%;
 
 }
 
